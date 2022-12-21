@@ -1,26 +1,62 @@
 <!DOCTYPE HTML>
-   <html lang="fr">
-        <head>
-            <title>Accueil</title>
-            <meta charset="utf-8">
-            <link href="style.css" rel="stylesheet">
-        </head>
-        <body>
-<nav>
-    <img class="menu" src="menu.png" alt="icone"/>
-    <a href="Accueil.html">Accueil</a>
-    <a href="A_propos.html">A propos</a>
-    <a href="Competence.html">Compétence</a>
-    <a href="Contact.html">Contact</a>
-    <a href="Experience.html">Experience</a>
-    <a href="Formation.html">Formation</a>    
-</nav>
-<div id="banniere"><h1> Site de présentation professionnel <br>Accueil</br>
-</h1>
-</div>
-<main>
-    <img class="photo" src="photoid" alt="identité"/>
-<br>Bonjour je m'appelle Bredel Benjamin je suis actuellement en 1ère année de mon BTS SIO à l'ecole Saint Ursule à Caen </br>
-</main>
-        </body>
-    </html>
+<html lang="fr">
+
+<head>
+    <title>Accueil</title>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/btn.css" rel="stylesheet">
+    <link href="styles/card.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="card_container">
+
+        <div class="card" onclick="window.location.href='A_propos.html'">
+            <div class="content a_propos_backdrop">
+                <div class="card__content">
+                    <button class="btn_home" href="A_propos.html">A propos</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='Competence.html'">
+            <div class="content competence_backdrop">
+                <div class="card__content">
+                    <button class="btn_home" href="">Competences</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='Experience.html'">
+            <div class="content experience_backdrop">
+                <div class="card__content">
+                    <button class="btn_home" href="Experience.html">Experience</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='Formation.html'">
+            <div class="content contact_backdrop">
+                <div class="card__content">
+                    <button class="btn_home" href="Formation.html">Formations</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='Contact.html'">
+            <div class="content formation_backdrop">
+                <div class="card__content">
+                    <button class="btn_home" href="Contact.html">Contact</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/index.js"></script>
+
+</html>

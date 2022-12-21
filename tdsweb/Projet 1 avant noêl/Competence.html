@@ -1,23 +1,57 @@
 <!DOCTYPE HTML>
-   <html lang="fr">
-        <head>
-            <title>Compétence</title>
-            <meta charset="utf-8">
-            <link href="style.css" rel="stylesheet">
-        </head>
-        <body>
+<html lang="fr">
 
-<nav>
-    <img src="menu.png"/>
-    <a href="Accueil.html">Accueil</a>
-    <a href="A_propos.html">A propos</a>
-    <a href="Competence.html">Compétence</a>
-    <a href="Contact.html">Contact</a>
-    <a href="Experience.html">Experience</a>
-    <a href="Formation.html">Formation</a>    
-</nav>
-<div id="banniere"> toto
-</div>
+<head>
+    <title>A_propos</title>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/btn.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-        </body>
-    </html>
+<body>
+
+    <a id="btn_nav" class="btn__nav">
+        <span class="material-symbols-outlined">
+            menu
+        </span>
+    </a>
+
+    <div id="nav" class="container__nav hide__nav">
+        <a class="nav__menu_a" href="Accueil.html">Accueil</a>
+        <a class="nav__menu_a" href="A_propos.html">A propos</a>
+        <a class="nav__menu_a" href="Competence.html">Compétence</a>
+        <a class="nav__menu_a" href="Contact.html">Contact</a>
+        <a class="nav__menu_a" href="Experience.html">Experience</a>
+        <a class="nav__menu_a" href="Formation.html">Formation</a>
+    </div>
+    <h1>Compétences</h1>
+
+    <div id="competence">
+        <h2>Mon Domaine: informatique</h2>
+        <div> Option SISR</div>
+    </div>
+    <div class="loadbar_container">
+
+
+        <div class="f-col">
+            <div class="f-col">
+                <label class="t-white">CSS</label>
+                <div class="load_bar_placerholder ">
+                    <div style="width: 80px;" class="load_bar"></div>
+                </div>
+            </div>
+            <div class="f-col">
+                <label class="t-white">AZAZA</label>
+                <div class="load_bar_placerholder ">
+                    <div style="width: 50px;" class="load_bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
