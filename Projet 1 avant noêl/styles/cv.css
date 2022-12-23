@@ -1,0 +1,321 @@
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+/* Section a_propos */
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(1,28,65,1) 32%, rgba(34,39,135,1) 100%);
+    color: white;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(30, 30, 193);
+}
+
+header,footer {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+header {
+    border-bottom: 0px solid;
+    height: 120px;
+}
+
+header h1 {
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+
+}
+
+section#exp{
+    border: solid white 2px;
+}
+
+section h2 {
+    margin: 20px 0;
+    width: 90%;
+}
+
+section>div {
+    width: 90%;
+}
+
+.photo {
+    text-align: center;
+}
+
+.prez {
+    border-bottom: 2px dashed #ccc;
+}
+
+.prez a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+
+.contact-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contact-flex p:first-child {
+    flex: 0 0 40%;
+}
+
+.contact-flex p:last-child {
+    flex: 0 0 60%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+/*SECTION EXP ET FORMATION*/
+.exp {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.exp-info {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.exp-logo {
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+
+.exp-info {
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+
+.exp img {
+    width: 100%;
+}
+
+.exp h3 {
+    font-size: 1.2em;
+}
+
+.exp h4 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/*SECTION COMPETENCES*/
+
+.comp {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+
+.comp p {
+    flex: 0 0 40%;
+}
+
+.conteneur-barre {
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: rgb(70, 70, 70);
+    border-bottom: 0px ridge rgb(66, 66, 66);
+}
+span.barre.c{
+    width: 40px;
+}
+
+.barre {
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.barre.chtml{
+    width: 50%;
+    background-color:white;
+    box-shadow: #ccc;
+    
+}
+
+.barre.cphp{
+    width: 15%;
+    background-color:white
+}
+
+.barre.cjs{
+    width: 5%;
+    background-color:white
+}
+
+.barre.ccisco{
+    width: 80%;
+    background-color:white
+}
+
+.c85 {
+    width: 85%;
+    background-color:white
+}
+
+.c90 {
+    width: 90%;
+    background-color:white
+}
+
+.c95 {
+    width: 95%;
+    background-color:white
+}
+
+.c100 {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.comp2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.conteneur-barre2 {
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: rgb(68, 68, 68);
+}
+
+/*barre de compétence personelles*/
+.interet {
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.interet img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+
+/*VERSION BUREAU DU CV*/
+@media screen and (min-width: 980px){}
+
+.prez,.contact {
+    flex: 0 0 45%;
+}
+
+.prez {
+    border-bottom: none;
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
+    margin-left: auto;
+}
+
+.contact {
+    padding-left: 20px;
+    margin-right: auto;
+}
+
+.exp-logo {
+    flex: 0 0 10%;
+}
+
+.exp-info,.exp-desc {
+    flex: 0 0 85%;
+    margin-left: auto;
+}
+
+.interet {
+    flex: 0 1 25%;
+}
+h1{
+    scroll-margin-top:2em;
+    text-align: center;
+}
+
+/*Section contact*/
+
+section h3 {
+    margin: 20px 0;
+    width: 90%;
+    font-size: 25px;
+}
+
+section#contact .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0; }
+   
+section#contact .form-group label {
+    padding-bottom: 0.5rem; }
+
+section#contact button {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    background:white;
+    box-shadow: 0px 0px 10px #ccc;
+ }
+
+footer {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    footer i {
+      padding-top: 2rem;
+      padding-right: 2rem;
+      font-size: 4rem; }
+  
